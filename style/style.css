@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-image: url(/picture/1639777538_144-catherineasquithgallery-com-p-krasivii-rozovii-fon-gradient-201.jpg);
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    padding: 2% 3% 2% 3%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    padding: 5px;
+    border: none;
+    outline: 2px solid rgb(255, 189, 225);
+}
+
+.main {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 3%;
+}
+
+.image {
+    width: 100%;
+}
+
+
+.maincontent {
+    padding: 5%;
+    text-align: center;
+}
+
+.inf {
+    color: rgb(0, 0, 0);
+}
+
+.info {
+    padding: 1%;
+    background-color: rgb(255, 230, 244);
+    outline: 5px solid rgb(255, 189, 225);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5%;
+}
+
+.characters {
+    padding: 1% 4% 4% 4%;
+}
+
+p {
+    padding: 3%;
+    background-color: rgb(255, 230, 244);
+    border: 5px solid rgb(255, 189, 225);
+    color: rgb(0, 0, 0);
+}
+
+.screen {
+    border: 5px solid rgb(255, 189, 225);
+    border-radius: 20px;
+    width: 97%;
+}
+
+.screen2 {
+    border: 5px solid rgb(255, 189, 225);
+    border-radius: 20px;
+    width: 97%;
+}
+
+.screen3 {
+    border: 5px solid rgb(255, 189, 225);
+    border-radius: 20px;
+    width: 97%;
+}
+
+.screen4 {
+    border: 5px solid rgb(255, 189, 225);
+    border-radius: 20px;
+    width: 97%;
+}
+
+.screen5 {
+    border: 5px solid rgb(255, 189, 225);
+    border-radius: 20px;
+    width: 97%;
+}
+
+
+
+.gameplay {
+    display: none;
+    padding: 1% 5% 5% 5%;
+}
+
+.poems {
+    padding: 5%;
+    display: none;
+}
+
+.block {
+    border: 5px solid rgb(255, 189, 225);
+    text-align: center;
+    background-color: rgb(255, 230, 244);
+    padding: 5%;
+}
+
+.music {
+    background-color: rgb(209, 190, 2460);
+}
+
+.scrshots {
+    display: flex;
+    align-items: center;
+}
+
+.scrshots2 {
+    display: none;
+    align-items: center;
+}
+
+.scrshots3 {
+    display: none;
+    align-items: center;
+}
+
+.scrshots4 {
+    display: none;
+    align-items: center;
+}
+
+.scrshots5 {
+    display: none;
+    align-items: center;
+}
+
+
+.l {
+    color: rgb(255, 189, 225);
+}
+
+.r {
+    color: rgb(255, 189, 225);
+}
+
+.l2 {
+    color: rgb(255, 189, 225);
+}
+
+.r2 {
+    color: rgb(255, 189, 225);
+}
+
+.l3 {
+    color: rgb(255, 189, 225);
+}
+
+.r3 {
+    color: rgb(255, 189, 225);
+}
+
+.l4 {
+    color: rgb(255, 189, 225);
+}
+
+.r4 {
+    color: rgb(255, 189, 225);
+}
+
+.l5 {
+    color: rgb(255, 189, 225);
+}
+
+.r5 {
+    color: rgb(255, 189, 225);
+}
+
+
+@media screen and (max-width:800px) {
+
+    body {
+        position: relative;
+    }
+
+    .music {
+        background: none;
+        position: absolute;
+        bottom: -540%;
+    }
+
+    .poems {
+        padding: 40% 5% 5% 5%;
+    }
+
+    .gameplay {
+        padding: 40% 5% 5% 5%;
+    }
+
+
+    .characters {
+        padding: 40% 4% 4% 4%;
+    }
+
+
+    header {
+        position: fixed;
+        width: 100%;
+        background-color: rgb(207, 190, 246);
+        padding: 5%;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1%;
+    }
+
+    .screen {
+        width: 89%;
+    }
+
+    .screen2 {
+        width: 89%;
+    }
+
+    .screen3 {
+        width: 89%;
+    }
+
+    .screen4 {
+        width: 89%;
+    }
+
+    .screen5 {
+        width: 89%;
+    }
+
+    .l {
+        padding: 10vh 0.5vh 10vh 0.5vh;
+        color: rgb(255, 189, 225);
+    }
+
+    .r {
+        padding: 10vh 0.5vh 10vh 0.5vh;
+        color: rgb(255, 189, 225);
+    }
+
+    .l2 {
+        padding: 10vh 0.5vh 10vh 0.5vh;
+        color: rgb(255, 189, 225);
+    }
+
+    .r2 {
+        padding: 10vh 0.5vh 10vh 0.5vh;
+        color: rgb(255, 189, 225);
+    }
+
+    .l3 {
+        padding: 10vh 0.5vh 10vh 0.5vh;
+        color: rgb(255, 189, 225);
+    }
+
+    .r3 {
+        padding: 10vh 0.5vh 10vh 0.5vh;
+        color: rgb(255, 189, 225);
+    }
+
+    .l4 {
+        padding: 10vh 0.5vh 10vh 0.5vh;
+        color: rgb(255, 189, 225);
+    }
+
+    .r4 {
+        padding: 10vh 0.5vh 10vh 0.5vh;
+        color: rgb(255, 189, 225);
+    }
+
+    .l5 {
+        padding: 10vh 0.5vh 10vh 0.5vh;
+        color: rgb(255, 189, 225);
+    }
+
+    .r5 {
+        padding: 10vh 0.5vh 10vh 0.5vh;
+        color: rgb(255, 189, 225);
+    }
+
+}

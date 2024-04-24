@@ -1,0 +1,35 @@
+[
+    {
+      "picture": "/picture/3b.png",
+      "name":"Monika",
+      "age":20,
+      "height": "160sm",
+      "file_name": "monika.chr"
+      ,"info": "президент литературного клуба, которая будет поддерживать вас своими мудрыми советами."
+    },
+    {
+      "picture": "/picture/3c.png",
+      "name":"Sayroi",
+      "age":18,
+      "height": "157sm",
+      "file_name": "sayori.chr",
+      "info": "подруга детства, неуклюжая милота, а также большую часть времени предпочитает зависать в своей комнате."
+    },
+    {
+      "picture": "/picture/0b.png",
+      "name":"Yuri",
+      "age":18,
+      "height": "165sm",
+      "file_name": "yuri.chr",
+      "info": "Задумчивая персона предпочитающая общению с людьми – книги. Заботливая, коллекционирует ножи."
+    },
+    {
+      "picture": "/picture/ghost1.png",
+      "name":"Natsuki",
+      "age":18,
+      "height": "149sm",
+      "file_name": "natsuki.chr",
+      "info": "самая юная участница клуба, розоволосая цундере лоли, наживка для педобиров."
+    }
+
+  ]
