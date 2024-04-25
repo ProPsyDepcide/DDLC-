@@ -113,7 +113,7 @@ request.open("GET",'const.json')
 
 request.send()
 
-request.addEventListener('readystatechange',()=>{
+request.addEventListener('load',()=>{
   const data = JSON.parse(request.responseText)
   console.log(data);
 
